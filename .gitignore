@@ -1,0 +1,24 @@
+# Secrets — never commit real keys
+.env
+.env.*
+!.env.example
+
+# Build artifacts
+REPORT.html
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
